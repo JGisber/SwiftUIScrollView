@@ -14,6 +14,7 @@
 		BC59E12123713CEA00B2C06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC59E12023713CEA00B2C06C /* Assets.xcassets */; };
 		BC59E12423713CEA00B2C06C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC59E12323713CEA00B2C06C /* Preview Assets.xcassets */; };
 		BC59E12723713CEA00B2C06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC59E12523713CEA00B2C06C /* LaunchScreen.storyboard */; };
+		BC59E12F23713DB100B2C06C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59E12E23713DB100B2C06C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BC59E12323713CEA00B2C06C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC59E12623713CEA00B2C06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC59E12823713CEA00B2C06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC59E12E23713DB100B2C06C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BC59E11723713CE300B2C06C /* AppDelegate.swift */,
 				BC59E11923713CE300B2C06C /* SceneDelegate.swift */,
 				BC59E11E23713CE300B2C06C /* ContentView.swift */,
+				BC59E12E23713DB100B2C06C /* CardView.swift */,
 				BC59E12023713CEA00B2C06C /* Assets.xcassets */,
 				BC59E12523713CEA00B2C06C /* LaunchScreen.storyboard */,
 				BC59E12823713CEA00B2C06C /* Info.plist */,
@@ -153,6 +156,7 @@
 				BC59E11823713CE300B2C06C /* AppDelegate.swift in Sources */,
 				BC59E11F23713CE300B2C06C /* ContentView.swift in Sources */,
 				BC59E11A23713CE300B2C06C /* SceneDelegate.swift in Sources */,
+				BC59E12F23713DB100B2C06C /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
