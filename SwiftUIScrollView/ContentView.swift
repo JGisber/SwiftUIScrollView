@@ -12,6 +12,7 @@ struct ContentView: View {
 	var body: some View {
 		VStack {
 			ScrollView(showsIndicators: false) {
+				// MARK: - Header
 				HStack {
 					VStack(alignment: .leading) {
 						Text("Monday Aug 20".uppercased())
@@ -27,7 +28,7 @@ struct ContentView: View {
 				}
 				.padding([.top, .horizontal])
 				.layoutPriority(-100)
-				
+				// MARK: - Views
 				VStack {
 					CardView(image: "swiftui-button", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners", author: "Simon Ng")
 				
